@@ -23,8 +23,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.internal.FindsByClassName;
 import org.openqa.selenium.internal.FindsByXPath;
 
-import java.lang.Override;
-import java.lang.String;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -301,5 +299,4 @@ public abstract class FluentBy extends By {
             return "FluentBy.attribute: " + name + val();
         }
     }
-
 }
